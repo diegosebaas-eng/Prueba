@@ -1,0 +1,130 @@
+/* Estilo futurista con efecto neón */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #0d0d0d, #000);
+  color: #f0f0f0;
+  text-align: center;
+}
+
+header {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e1e2f, #121212);
+  color: #00ffe0;
+  text-shadow: 0 0 10px #00ffe0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.8rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  margin: 15px 0;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: transparent;
+  border: 2px solid #00ffe0;
+  color: #00ffe0;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  background: #00ffe0;
+  color: #121212;
+  box-shadow: 0 0 20px #00ffe0;
+}
+
+.features {
+  padding: 50px 20px;
+}
+
+.features h2 {
+  margin-bottom: 30px;
+  color: #ff6fff;
+  text-shadow: 0 0 10px #ff6fff;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #1e1e2f;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,255,224,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 25px rgba(0,255,224,0.6);
+}
+
+.contacto {
+  padding: 50px 20px;
+  background: linear-gradient(135deg, #121212, #1e1e2f);
+}
+
+.contacto h2 {
+  margin-bottom: 25px;
+  color: #00ffe0;
+  text-shadow: 0 0 10px #00ffe0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin: 0 auto;
+}
+
+input, textarea, button {
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border: none;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+input, textarea {
+  background: #0d0d0d;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+button {
+  background: #00ffe0;
+  color: #121212;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+button:hover {
+  background: #00ccb3;
+  box-shadow: 0 0 15px #00ffe0;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px;
+  background: #000;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+
+
